@@ -2,7 +2,6 @@ from idlelib.rpc import response_queue
 
 import requests
 import random
-from test003 import header
 
 
 class Apiclient():
