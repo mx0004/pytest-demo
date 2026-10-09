@@ -40,7 +40,7 @@ class TestCourseAdd:
         assert response.status_code == 200# HTTP 状态码 200
         data = response.json()# 把响应体解析成字典
         print(f"响应数据：{data}")
-        print(f"{course["price"]}")
+        print(f"{course['price']}")
 
         # 断言业务状态码和提示信息，和期望一致
         assert data["code"] == experience["code"], \
