@@ -1,7 +1,6 @@
 import pytest
 from src.testqingqiu import Apiclient
-from test003 import response
-
+git add tests/conftest.py
 
 @pytest.fixture(scope="function")
 def client():
